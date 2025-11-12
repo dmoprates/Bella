@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body {
+    background-color: rgb(226, 225, 226);
+    height: 100%;
+}
+
+/* INDEX */
+
+header div.capa {
+    width: 100%;
+    height: 200px;
+    background: red;
+    margin-bottom: 25px;
+}
+
+header div.menu {
+    background: rgb(209, 189, 200);
+}
+
+header div.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header div.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header div.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(133, 87, 113);
+    font-size: 15px;
+}
+
+header div.menu ul li a:hover {
+    color: rgb(106, 49, 80);
+}
+
+section div.content{
+    margin: 25px 0;
+}
+
+section div.content h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(94, 47, 73);
+}
+
+section div.content p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: rgb(54, 47, 51);
+}
+
+footer {
+    width: 100%;
+}
+
+footer p {
+    background: rgb(209, 189, 200);
+    text-align: center;
+    padding: 15px;
+    color: rgb(133, 87, 113);
+}
+
+/*CONTATO*/
+
+section div.contact {
+    display: flex;
+    gap: 20px;
+}
+
+div.contact div.img {
+    width: 50%;
+    height: 320px;
+    background: rgb(209, 189, 200);
+}
+
+div.contact form {
+    width: 50%;
+}
+
+div.contact form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(209, 189, 200);
+    background: rgb(209, 189, 200);
+    color: rgb(94, 47, 73);
+}
+
+div.contact form textarea{
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    border: 1px solid rgb(209, 189, 200);
+    background: rgb(209, 189, 200);
+    color: rgb(94, 47, 73);
+}
+
+div.contact form input[type="submit"]{
+    background: rgb(209, 189, 200);
+    padding: 10px;
+    border: 1px solid rgb(209, 189, 200);
+    color: rgb(94, 47, 73);
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+div.content div.info{
+    display: inline;
+    text-align: center;
+    padding: 0 15px;
+    color: rgb(94, 47, 73);
+}
+
+div.content div.info p{
+    color: rgb(94, 47, 73);
+}
+
+/* BIOGRAFIA */
+
+section div.content div.imagem {
+    width: 500px;
+    height: 320px;
+    background: rgb(209, 189, 200);
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+/* CAMPANHAS */
+
+div.campanha-single {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+div.campanha-single div.imagem {
+    width: 50%;
+    height: 320px;
+    background: rgb(209, 189, 200);
+}
+div.campanha-single div.descricao {
+    width: 50%;
+    padding: 0 15px;
+}
+
+div.descricao h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: rgb(94, 47, 73);
+}
+
+div.descricao p{
+    color: rgb(49, 47, 48);
+    margin: 10px 0;
+}
