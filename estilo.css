@@ -21,7 +21,9 @@ body {
 header div.capa {
     width: 100%;
     height: 200px;
-    background: rgb(209, 189, 200);
+    background-image: url(imgs/header.png);
+    background-position: center;
+    /*background: #d1bdc8;*/
     margin-bottom: 25px;
 }
 
@@ -87,13 +89,19 @@ section div.contact {
 }
 
 div.contact div.img {
-    width: 50%;
+    width: 30%;
     height: 320px;
-    background: rgb(209, 189, 200);
+    /*background: rgb(209, 189, 200);*/
+}
+
+div.contact div.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 div.contact form {
-    width: 50%;
+    width: 70%;
 }
 
 div.contact form input{
@@ -144,9 +152,15 @@ div.content div.info p{
 section div.content div.imagem {
     width: 500px;
     height: 320px;
-    background: rgb(209, 189, 200);
+    /*background: rgb(209, 189, 200);*/
     margin: 0 auto;
     margin-bottom: 25px;
+}
+
+section div.content div.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 /* CAMPANHAS */
@@ -158,13 +172,19 @@ div.campanha-single {
 }
 
 div.campanha-single div.imagem {
-    width: 50%;
+    width: 30%;
     height: 320px;
-    background: rgb(209, 189, 200);
+    /*background: rgb(209, 189, 200);*/
 }
+div.campanha-single div.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 div.campanha-single div.descricao {
-    width: 50%;
-    padding: 0 15px;
+    width: 70%;
+    padding: 60px 15px;
 }
 
 div.descricao h4{
@@ -177,4 +197,11 @@ div.descricao h4{
 div.descricao p{
     color: rgb(49, 47, 48);
     margin: 10px 0;
+}
+
+div.campanha-single a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(94, 47, 73);
 }
